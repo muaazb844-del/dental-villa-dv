@@ -17,6 +17,7 @@ export const metadata: Metadata = {
     default: "Dental Villa",
     template: "%s | Dental Villa",
   },
+
   description:
     "Dental Villa provides modern, comfortable, and patient-focused dental care. We specialize in dental implants, root canal treatment, orthodontics, cosmetic dentistry, scaling & polishing, and teeth whitening.",
 
@@ -43,9 +44,9 @@ export const metadata: Metadata = {
   publisher: "Dental Villa",
 
   icons: {
-    icon: "/logo.png",
-    shortcut: "/logo.png",
-    apple: "/logo.png",
+    icon: "/favicon.png",
+    shortcut: "/favicon.png",
+    apple: "/favicon.png",
   },
 
   openGraph: {
