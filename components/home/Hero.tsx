@@ -18,11 +18,11 @@ export default function Hero() {
       <div className="absolute inset-y-0 left-0 w-full lg:w-1/2 bg-gradient-to-r from-black/90 via-black/70 to-transparent"></div>
 
       {/* Content */}
-      <div className="relative z-10 mx-auto flex min-h-screen max-w-7xl items-center px-6 lg:px-16">
-        <div className="max-w-xl">
+      <div className="relative z-10 mx-auto flex min-h-screen max-w-7xl items-center px-4 md:px-8 lg:px-16">
+  <div className="w-full max-w-2xl">
 
           {/* Badge */}
-          <span className="inline-flex items-center rounded-full border border-blue-400 bg-blue-500/20 px-5 py-2 text-sm font-semibold text-white backdrop-blur-md">
+         className="inline-flex items-center rounded-full border border-blue-400 bg-blue-500/20 px-4 py-2 text-xs sm:text-sm font-semibold text-white backdrop-blur-md"
             ✨ Premium Dental Care
           </span>
 

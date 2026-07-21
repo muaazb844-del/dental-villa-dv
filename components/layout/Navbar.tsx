@@ -92,32 +92,51 @@ export default function Navbar() {
 </div>
 
       {/* Mobile Menu */}
+{/* Mobile Menu */}
 
-      {menuOpen && (
-        <div className="border-t bg-white shadow-xl lg:hidden">
+{menuOpen && (
+  <div className="border-t bg-white shadow-xl lg:hidden">
+    <nav className="flex flex-col gap-5 p-6">
 
-          <nav className="flex flex-col gap-5 p-6">
+  <a
+    href="#"
+    onClick={() => setMenuOpen(false)}
+    className="font-medium text-black transition hover:text-blue-600"
+  >
+    Home
+  </a>
 
-            <a href="#" onClick={() => setMenuOpen(false)}>
-              Home
-            </a>
+  <a
+    href="#services"
+    onClick={() => setMenuOpen(false)}
+    className="font-medium text-black transition hover:text-blue-600"
+  >
+    Services
+  </a>
 
-            <a href="#services" onClick={() => setMenuOpen(false)}>
-              Services
-            </a>
+  <a
+    href="#doctor"
+    onClick={() => setMenuOpen(false)}
+    className="font-medium text-black transition hover:text-blue-600"
+  >
+    Doctor
+  </a>
 
-            <a href="#doctor" onClick={() => setMenuOpen(false)}>
-              Doctor
-            </a>
+  <a
+    href="#reviews"
+    onClick={() => setMenuOpen(false)}
+    className="font-medium text-black transition hover:text-blue-600"
+  >
+    Reviews
+  </a>
 
-            <a href="#reviews" onClick={() => setMenuOpen(false)}>
-              Reviews
-            </a>
-
-            <a href="#contact" onClick={() => setMenuOpen(false)}>
-              Contact
-            </a>
-
+  <a
+    href="#contact"
+    onClick={() => setMenuOpen(false)}
+    className="font-medium text-black transition hover:text-blue-600"
+  >
+    Contact
+  </a>
             <a
               href="tel:+923465714761"
               className="rounded-xl border border-[#0A2540] py-3 text-center"
