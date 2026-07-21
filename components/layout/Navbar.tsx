@@ -136,24 +136,22 @@ export default function Navbar() {
     className="font-medium text-black transition hover:text-blue-600"
   >
     Contact
-  </a>
-            <a
+  </a><a
               href="tel:+923465714761"
-              className="rounded-xl border border-[#0A2540] py-3 text-center"
+              className="rounded-xl border border-[#0A2540] py-3 text-center font-medium text-black transition hover:bg-[#0A2540] hover:text-white"
             >
               📞 Call Now
             </a>
 
             <a
-  href="#contact"
-  onClick={() => setMenuOpen(false)}
-  className="rounded-full bg-blue-600 px-6 py-2.5 text-sm font-semibold text-white shadow-lg transition hover:bg-blue-700"
->
-  Book Appointment
-</a>
+              href="#contact"
+              onClick={() => setMenuOpen(false)}
+              className="rounded-full bg-blue-600 px-6 py-2.5 text-sm font-semibold text-white shadow-lg transition hover:bg-blue-700"
+            >
+              Book Appointment
+            </a>
 
           </nav>
-
         </div>
       )}
 
