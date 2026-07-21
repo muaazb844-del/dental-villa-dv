@@ -21,10 +21,7 @@ export default function Hero() {
       <div className="relative z-10 mx-auto flex min-h-screen max-w-7xl items-center px-4 md:px-8 lg:px-16">
   <div className="w-full max-w-2xl">
 
-          {/* Badge */}
-         className="inline-flex items-center rounded-full border border-blue-400 bg-blue-500/20 px-4 py-2 text-xs sm:text-sm font-semibold text-white backdrop-blur-md"
-            ✨ Premium Dental Care
-          </span>
+     
 
           {/* Heading */}
           <h1 className="mt-8 text-5xl font-extrabold leading-tight text-white lg:text-7xl">
