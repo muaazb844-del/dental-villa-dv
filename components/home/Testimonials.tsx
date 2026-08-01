@@ -2,19 +2,19 @@ import { Star } from "lucide-react";
 
 const reviews = [
   {
-    name: "Muhammad Ahmad",
+    name: "Uzair Maqsood",
     review:
-      "Excellent experience! Dr. Qasim Ikram explained every step clearly. The treatment was completely painless.",
+      "Dr. Qasim is a highly professional dentist who I would highly recommend to anyone. He recently did a scaling procedure for me and I was impressed with his skills and expertise. If you're looking for a dentist who is knowledgeable, professional and skilled, then Dr. Qasim is the one for you",
   },
   {
-    name: "Ayesha Khan",
+    name: "Ayesha Siddiq",
     review:
-      "The clinic is clean, modern and the staff is very cooperative. Highly recommended.",
+      "Visited dental villa for my scaling and polishing and I for one experience pain during scaling but Dr Qasim did a great job and it was painless and stress free . Definitely visiting him again for all my dental problems",
   },
   {
-    name: "Ali Raza",
+    name: "Ammar Jazir",
     review:
-      "Professional service with modern equipment. I'm very happy with my smile makeover.",
+      "We consulted Dr. Qasim at Dental Villa and got treatment from his clinic for toothache and also got scaling done. Very neat and tidy clinic. Always recommend 💯💯 …",
   },
 ];
 
